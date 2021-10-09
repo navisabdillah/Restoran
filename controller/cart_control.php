@@ -1,0 +1,4 @@
+<?php 
+// Mulai sesi
+
+?>

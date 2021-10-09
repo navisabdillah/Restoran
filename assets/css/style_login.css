@@ -1,0 +1,129 @@
+* {
+    margin: 0; padding: 0;
+}
+
+html {
+	height: 100%;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.container {
+    width: 800px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.kiri {
+    width: 50%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float: left;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+}
+
+.kanan {
+    width: 50%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    box-sizing: border-box;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+    margin: 30px auto;
+    margin-bottom: 0;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.kanan .title {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.kanan .name_web {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-family: "Pacifico", cursive;
+}
+
+.kanan #form {
+	border: 0 none;
+	border-radius: 3px;
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 5px auto;
+    position: relative;
+}
+
+.kanan #form input {
+    padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+    margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	color: #2C3E50;
+	font-size: 13px;
+}
+
+.kanan #form input:hover {
+    box-shadow: 0 0 1px 1px rgb(228, 90, 11);
+}
+
+.kanan #form .btn_login {
+    width: 100%;
+    background: rgb(228, 90, 11);
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 8px;
+	cursor: pointer;
+	padding: 10px 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.kanan #form .btn_login:hover {
+    background: rgb(228, 90, 11);
+    box-shadow: 0 0 0 2px white, 0 0 0 3px rgb(184, 68, 1);
+}
+
+.kanan p {
+    font-size: 12px;
+    color: #414141;
+}
+
+.kanan a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #414141;
+    transition: 0.3s;
+}
+
+.kanan a:hover{
+    color: rgb(228, 90, 11);
+}
+
+
